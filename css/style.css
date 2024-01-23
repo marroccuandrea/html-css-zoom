@@ -29,10 +29,14 @@ header{
     
 }
 
-main section .container{
+main{
     background-color: black;
-    height: calc(100vh - 55px);
     overflow: auto;
+}
+
+main section .container{
+    height: calc(100vh - 55px);
+    
 }
 
 .flex{
