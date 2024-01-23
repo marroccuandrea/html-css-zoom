@@ -29,7 +29,7 @@ header{
     
 }
 
-main{
+main section .container{
     background-color: black;
     height: calc(100vh - 55px);
     overflow: auto;
@@ -39,20 +39,15 @@ main{
     display: flex;
 }
 
-footer{
-    height: 55px;
-    background-color: #222222;
-}
-
 .container{
     flex-wrap: wrap;
-    margin: 20px auto;
     max-width: 100%;
+    max-height: 530px;
+    align-content: center;
 }
 
 .container, img{
     justify-content: center;
-    align-items: center;
     width: 100%;
 }
 
@@ -68,4 +63,9 @@ footer{
     background-color: rgba(60 60, 60, .5);
     color: white;
     font-size: .6rem;
+}
+
+footer{
+    height: 55px;
+    background-color: #222222;
 }
