@@ -4,12 +4,33 @@
     box-sizing: border-box;
 }
 
+
+
 header{
-    color: black;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    width: 100%;
+    padding: 10px 3px;
+}
+
+.topbar .speaker, .topbar .espandi{
+    font-size: .7rem;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+.speaker{
+    background-color: #4A4A4A;
+    margin-right: 5px;
+}
+.espandi{
+    background-color: #4A4A4A;
+    
 }
 
 main{
-    background-color: white;
+    background-color: black;
     height: calc(100vh - 55px);
     overflow: auto;
 }
@@ -25,13 +46,14 @@ footer{
 
 .container{
     flex-wrap: wrap;
-    margin: 30px auto;
+    margin: 20px auto;
     max-width: 100%;
 }
 
 .container, img{
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .immagini{
