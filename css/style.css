@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 header{
     display: flex;
     justify-content: flex-end;
@@ -100,6 +98,7 @@ footer span{
 li{
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .fa-share-from-square{
@@ -121,4 +120,5 @@ li:hover{
     font-size: .6rem;
     padding: 0 12px;
     color: red;
+    cursor: pointer;
 }
