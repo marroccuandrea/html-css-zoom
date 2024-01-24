@@ -81,18 +81,20 @@ footer i{
     text-align: center;
     font-size: 1.1rem;
     padding: 10px 12px;
+    
 }
 
 .fa-angle-up{
     font-size: .4rem;
     height: 100%;
-    
+    padding-top: 20px;
 }
 
 footer span{
     display: flex;
     font-size: .6rem;
     justify-content: center;
+    font-weight: bold;
 }
 
 li{
