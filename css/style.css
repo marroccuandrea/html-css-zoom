@@ -34,7 +34,7 @@ main{
 }
 
 main section .container{
-    height: calc(100vh - 55px);
+    height: calc(100vh - 110px);
     
 }
 
@@ -45,7 +45,7 @@ main section .container{
 .container{
     flex-wrap: wrap;
     max-width: 100%;
-    max-height: 530px;
+    max-height: 100%;
     align-content: center;
 }
 
